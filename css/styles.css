@@ -827,6 +827,12 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 PORTFOLIO-MAIN-END
 
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .button-box{
   position: absolute;
 }
@@ -845,12 +851,6 @@ PORTFOLIO-MAIN-END
   border-radius: 50%;
   cursor: pointer;
   pointer-events: visible;
-}
-
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 }
 
 .backdrop {
